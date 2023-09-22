@@ -5,9 +5,8 @@ analise-extratos
 
 Requisitos que o projeto segue:
 * Coleta da fonte de dados
-* Modelagem de Dados e depois passar para o Banco de Dados  
-* Realizar o ETL 
-* Fazer a integração do banco de dados com a Ferramenta de BI
+* Realizar o ETL para destino no banco de dados
+* Fazer a integração da Ferramenta de BI com o banco de dados
 * Na ferramenta de BI, construir os gráficos visuais
 
 ## Visão Geral
