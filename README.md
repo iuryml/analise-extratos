@@ -61,7 +61,7 @@ select nome_cartao, data_compra, numero_final_cartao, categoria, descricao, parc
 #### Instruções para análise
 
 <p>Vemos que foram criados 2 cards e nesses eu criei 1 medida DAX para realizar o cálculo total de gastos.
-O gráfico de pizza foram utilizdas duas medidas, sendo 1 o percentual total de utilização do Cartão Físico e outra do Virtual.
+O gráfico de pizza foram utilizadas duas medidas, sendo 1 o percentual total de utilização do Cartão Físico e outra do Virtual.
 
 Dois gráficos de colunas foram construídos, mas um demonstra um visão diferente do outro.<br><br>
 O gráfico de <i>Dia dos Meses com Maior Movimentação Financeira</i> apresenta uma análise temporal de todas os dias dos meses que teve a maior movimentação de uso do Cartão de Crédito.<br>
