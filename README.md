@@ -56,24 +56,31 @@ select nome_cartao, data_compra, numero_final_cartao, categoria, descricao, parc
 
 <p>Chegando a parte final do projeto onde foi realizada a construção do Dashboard para apresentação dos insights que consegui tirar.</p>
 
-![image](https://github.com/iuryml/analise-extratos/assets/55949523/4a97e143-ab96-4296-bff0-720163178a7d)
+#### Métricas alocadas aos Cards
+![image](https://github.com/iuryml/analise-extratos/assets/55949523/e1fb9c05-a043-421a-910b-d37e0aef23b7)
 
-#### Instruções para análise
+<p>Vemos que foram criados 3 cards principais no desenvolvimento e nesles criei 1 medida DAX para realizar o cálculo de <i>Gasto Total</i> e outra medida para calcular o <i>Gasto Médio por Dia</i></p>
+<p>A métrica de <i>Taxa de Uso por Cartão</i> foi criada para mostrar o percentual de maior volume de preferência por tipo de Cartão.</p>
 
-<p>Vemos que foram criados 2 cards e nesses eu criei 1 medida DAX para realizar o cálculo total de gastos.
-O gráfico de pizza foram utilizadas duas medidas, sendo 1 o percentual total de utilização do Cartão Físico e outra do Virtual.
+#### Principais Indicadores de Movimentação por Dias da Semana
+![image](https://github.com/iuryml/analise-extratos/assets/55949523/fe3bc2b9-f6ff-4b29-84a3-1bcc6f250489)
 
-Dois gráficos de colunas foram construídos, mas um demonstra um visão diferente do outro.<br><br>
-O gráfico de <i>Dia dos Meses com Maior Movimentação Financeira</i> apresenta uma análise temporal de todas os dias dos meses que teve a maior movimentação de uso do Cartão de Crédito.<br>
-Já o gráfico de <i>Gasto Total por Tipo de Cartão</i> apresenta resultados de qual tipo de cartão teve o maior volume durante os meses do ano.
-</p>
+<p>O gráfico de área <i>Maior Movimentação Financeira por Dias da Semana</i> apresenta uma análise temporal dos dias da semana teve a maior movimentação de uso do Cartão de Crédito.<br><br>
+Aloquei uma linha média para definir um ponto de análise para entender quais dias tiveram um volume acima ou abaixo dessa média e de fato, as Sextas-Feiras superando os demais dias, com maior volume.</p>
 
-<p>Por fim o gráfico de colunas onde apresentei as principais categorias e sua média de gastos. Coloquei uma médida personalizada para destacar os principais gastos com média acima da média de gastos.</p>
+#### Principais Indicadores de Gastos Mensais
+![image](https://github.com/iuryml/analise-extratos/assets/55949523/afa1db74-723f-4188-bd53-efd963650b71)
+
+<p>O gráfico de colunas demonstra o volume de gastos por ordem dos Meses do Ano e como destaque o valor<br><br>
+Outro destaque foi o tooltip criado para demonstrar as principais Categorias com maior gasto referente aquele Mês</p>
+
+#### Principais Categorias com Maior Gasto
+![image](https://github.com/iuryml/analise-extratos/assets/55949523/43148085-9c36-4580-88d6-f189421e1ba3)
+
+<p>O gráfico de Barras demonstrando por ordem acrescente de Gastos, as top principais Categorias que até o momento estão dominando o topo de Gastos</p>
 
 ## Conclusão
 
-Podemos ver que há uma grande movimentação do titular da conta durante os primeiros 15 dias em uso de Cartão Virtual, provavelmente para promoções de produtos ou demais outras utilidades que há na internet. Ao todo podemos destacar também que o Titular usa o cartão Físico para comprar de necessidade como para Supermercados, Roupas e Automotivos. Esse padrão foi encontrado durante a análise. 
+Podemos ver que há uma grande movimentação do titular da conta nos dias de Sextas Feiras, ambos tipos de uso de Cartões são utilizadas, dominando o topo de gastos, provavelmente para promoções de produtos ou demais outras utilidades que há neste dia. Ao todo podemos destacar também que o Titular usa o cartão Físico para comprar o que é de necessidade, como fato, os Supermercados, Roupas e Automotivos. Esse padrão foi encontrado durante a análise. 
 
-Também podemos destacar que as principais categorias preferidas de gastos são Educacional, Automotivas e Vestuários.
-
-
+Também podemos destacar que as principais categorias preferidas de gastos são **Educacional**, **Automotivas** e **Vestuários**.
